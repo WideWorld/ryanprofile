@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="라이언 덕후" />
+    <meta property="og:description" content="라이언 덕후가 만든 프로필" />
+    <meta property="og:image" content="ryan2.png" />
+    <title>라이언 덕후 프로필</title>
+    <style>
+        * {
+            font-family: 'SUIT', sans-serif;
+        }
+
+        body {
+            background-color: #FCC25E;
+        }
+
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            background-color: white;
+            border-radius: 100%;
+            border: 2px solid black;
+
+            background-image: url('ryan2.png');
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .main {
+            color: black;
+            font-size: 20px;
+
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .sub {
+            color: black;
+            font-size: 10px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .wrap {
+
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 12px;
+            font-weight: bold;
+            color: black;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 3px -1px black;
+
+        }
+        .wrap > a:hover {
+            background-color: #d2d2d2;
+            font-size: 15px;
+        }
+
+        .sub2 {
+            color: black;
+            font-size: 10px;
+
+            margin-top: 50px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">라이언 덕후</h1>
+        <p class="sub">널리 라이언을 알려 세상을 귀엽게 하라</p>
+
+        <a target="_blank" href="https://store.kakaofriends.com/home">카카오프렌즈</a>
+        <a target="_blank" href="https://store.kakaofriends.com/profile/1?tab=products">카카오프렌즈 라이언</a>
+        <a target="_blank" href="https://store.kakaofriends.com/wallpaper">카카오프렌즈 바탕화면</a>
+        <a target="_blank" href="https://www.kakaofriendsgolf.com/search/index?searchValue=%EB%9D%BC%EC%9D%B4%EC%96%B8#,POPULAR">카카오골프 라이언</a>
+        <p class="sub2">Profile made by @wide_world_ryan</p>
+        
+    </div>
+
+</body>
+
+</html>
